@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <title>Chi Recipe | Recipes for SweetTooth</title>
+
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="container flex">
+            <img src="images/logo.png" alt="" style="width: 250px;">
+            <!-- <h1 class="logo"><img src="images/logo.png" alt=""></h1> -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About Me</a></li>
+                    <li><a href="#recipes">Recipes</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Showcase -->
+    <section class="showcase">
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1 style="font-family: 'Dancing Script';">Dessert Recipes by Chi</h1>
+                <p>Hello! My name is Chi. 
+                    <br>
+                    I like to cook dessert and sweet food.
+                    <br>
+                    Especially cupcakes and bread.
+                    <br>
+                    Here you can find your favorite recipes within my posts.
+                    <br>
+                    I can guarantee you that these recipes are delicious.
+                </p>
+                <!-- <a href="" class="btn btn-outline">Read More</a> -->
+            </div>
+            <div class="showcase-form card">
+                <h2>If you want me to recook your recipe please contact me.</h2>
+                <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+                    <input type="hidden" name="form-name" value="contact">
+                    <p class="hidden">
+                        <label>Don’t fill this out if you’re human: <input name="bot-field" /></label>
+                    </p>
+                    <div class="form-control"> 
+                        <input type="text" name="name" placeholder="Name" required>
+                    </div>
+                    <!-- <div class="form-control">
+                        <input type="text" name="age" placeholder="Age" required>
+                    </div> -->
+                    <div class="form-control">
+                        <input type="text" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" name="textarea" placeholder="Write Your Recipes"></textarea>
+                    </div>
+                    <input type="submit" value="Send" class="btn btn-primary">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats -->
+    <section class="stats">
+        <div class="stats-container">
+            <div class="stats-heading text-center my-1">
+                <h3 class="stats-heading text-center my-1">
+                    Welcome to the first food blog of trusted and recooked recipes around the world.
+                </h3>
+            </div>
+
+            <div class="grid grid-3 text-center my-4">
+                <div>
+                    <i class="fa fa-globe fa-3x" aria-hidden="true"></i>
+                    <h3>1,405</h3>
+                    <p class="text-secondary">Recipes Around the World</p>
+                </div>
+                <div>
+                    <i class="fas fa-cheese fa-3x"></i>
+                    <h3>679</h3>
+                    <p class="text-secondary">Dessert Recipes</p>
+                </div>
+                <div>
+                    <i class="fas fa-bread-slice fa-3x"></i>
+                    <h3>65</h3>
+                    <p class="text-secondary">Bread Recipes</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- cli -->
+    <section class="cli" id="recipes">
+        <h1 style="text-align: center; font-weight: 900; font-family: 'Dancing Script'; font-size: 50px; margin-top: 30px;">Favorite Menus</h1>
+        <br>
+        <div class="container grid-image">
+            <div class="horizontal container-overlay">
+                <a href="bread.html">
+                    <img src="images/bread.jpeg" alt="Breads" class="image__img">
+                    <div class="image__overlay">
+                        <div class="image__title">Bread</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container-overlay">
+                <a href="cupcake.html">
+                    <img src="images/cupcake.jpeg" alt="Cupcake">
+                    <div class="image__overlay">
+                        <div class="image__title">Cupcake</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container-overlay">
+                <a href="cheesecake.html">
+                    <img src="images/cheesecake.jpeg" alt="Cheesecake">
+                    <div class="image__overlay">
+                        <div class="image__title">Cheesecake</div>
+                    </div>
+                </a>
+            </div>
+            <!-- <div><img src="images/cookies.jpeg" alt=""></div> -->
+            <div class="vertical container-overlay">
+                <a href="croissant.html">
+                    <img src="images/croissants.jpeg" alt="Croissant">
+                    <div class="image__overlay">
+                        <div class="image__title">Croissants</div>
+                    </div>
+                </a>
+            </div>
+            <div class="horizontal container-overlay">
+                <a href="cinnamon.html">
+                    <img src="images/cinnamon.jpeg" alt="Cinnamon">
+                    <div class="image__overlay">
+                        <div class="image__title">Cinnamon</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container-overlay">
+                <a href="macaroon.html">
+                    <img src="images/macaroons.jpeg" alt="Macaroons">
+                    <div class="image__overlay">
+                        <div class="image__title">Macaroons</div>
+                    </div>
+                </a>
+            </div>
+            <div class="container-overlay">
+                <a href="pretzel.html">
+                    <img src="images/pretzel.jpeg" alt="Pretzel">
+                    <div class="image__overlay">
+                        <div class="image__title">Pretzel</div>
+                    </div>
+                </a>
+            </div>
+            <div class="horizontal container-overlay">
+                <a href="dorayaki.html">
+                    <img src="images/dorayaki.jpeg" alt="Dorayaki">
+                    <div class="image__overlay">
+                        <div class="image__title">Dorayaki</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- cloud  -->
+    <section class="cloud bg-primary my-2 py-2">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="lg" style="font-family: 'Dancing Script', cursive;">Let's Cook with Me!</h2>
+                <p class="lead my-1">Want to cook with the exact measurement and flavor, this is the right place for you.
+                </p>
+                <a href="#recipes" class="btn btn-dark">Recipes</a>
+                <!-- <img src="" alt=""> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages -->
+    <!-- <section class="languages">
+        <h2 class="md text-center my-2">
+            Supported Languages
+        </h2>
+        <div class="container flex">
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="" alt="">
+            </div>
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="" alt="">
+            </div>
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="" alt="">
+            </div>
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="" alt="">
+            </div>
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="" alt="">
+            </div>
+            <div class="card">
+                <h4>Node.js</h4>
+                <img src="" alt="">
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Footer  -->
+    <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+            <div>
+                <h1>Chi Recipe</h1>
+                <p>Copyright &copy; 2021</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>                    
+                    <li><a href="aboutme.html">About Me</a></li>                    
+                    <li><a href="#recipes">Recipes</a></li>                    
+                </ul>
+            </nav>
+            <div class="social">
+                <a href="https://twitter.com/citradiani"><i class="fab fa-twitter fa-2x"></i></a>
+                <a href="https://github.com/citraput"><i class="fab fa-github fa-2x"></i></a>
+                <a href="https://www.instagram.com/citradianip/"><i class="fab fa-instagram fa-2x"></i></a>
+                <a href="https://www.facebook.com/citradp24/"><i class="fab fa-facebook fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+
+<!-- Test -->
+</body>
+</html>
