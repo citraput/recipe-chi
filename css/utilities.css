@@ -1,4 +1,18 @@
 /* Utilities */
+.image-logo {
+    width: 250px;
+}
+
+.image-food {
+    width:300px;
+    margin-left:30px;
+}
+
+.direction {
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
